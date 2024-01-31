@@ -1,0 +1,7 @@
+#coneccion con la base de datos
+
+DB_USERNAME-DEV=
+DB_PASSWORD-DEV=
+DB_DATABASE-DEV=
+DB_HOST-DEV=
+DB_PORT-DEV=
