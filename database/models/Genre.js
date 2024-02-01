@@ -26,7 +26,6 @@ module.exports = (sequelize, dataTypes) => {
         
     }
     const config = {
-
         tableName : "genres",
         timestamps : true,
         underscored : true

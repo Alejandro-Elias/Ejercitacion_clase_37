@@ -16,7 +16,7 @@ module.exports = {
     new: (req, res) => {
 
         db.Movie.findAll({
-            oder: [
+            order: [
                 ["release_date", "DESC"]
             ],
             limit : 5
@@ -34,7 +34,7 @@ module.exports = {
             where : {
                 rating : {[Op.gte]: 8.5 }
             },
-            oder: [
+            order: [
                 ["rating", "DESC"]
             ],
             limit : 5
